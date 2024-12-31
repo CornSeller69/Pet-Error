@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Pet Error</title>
+     <link rel="stylesheet" href="Sources/pe-style.css">
+     <link rel="shortcut icon" href="Materials/favicon.png" type="image/x-icon">
+</head>
+<body>
+     <h1 id="textb4">Press any key to start...</h1>
+     <img src="Materials/move-logo.png" alt="Uses Moveless v1.2" id="enginemark">
+     <h3 id="authormark">by CornSeller  |   v0.2 (Alpha)</h3> <!-- ZMIENIAJ WERSJĘ! -->
+     <div id="error">
+          <img src="Materials/exclamation.png" alt="!" id="excl"><p style="color: gray;" id="xarrow">⯈</p><p id="errortext">Dzień dobry. Jestem błędem z konsoli. Twoje upośledzone skille w pisaniu kodu zostały wynagrodzone tym , że teraz się mną opiekujesz. Omówię ci w miarę co musisz robić. Klikaj link w moim prawym dolnym rogu, aby przewijać tekst.</p>
+          <p id="fakelink">pe.js:1:9</p>
+     </div>
+     <div id="foodcounter"><b style="font-size: 15px;">GŁÓD</b><div style="position: absolute; top: 25%; height: 50%; width: 90%; left: 5%; border: 3px inset rgb(163, 163, 163); background-color: gray;"><section id="foodbar"></section></div></div>
+     <div id="funcounter"><b style="font-size: 15px;">ZNUDZENIE</b><div style="position: absolute; top: 25%; height: 50%; width: 90%; left: 5%; border: 3px inset rgb(163, 163, 163); background-color: gray;"><section id="funbar"></section></div></div>
+     <button id="menu" disabled>≡ MENU</button>
+     <div id="menucard">
+          <button id="closemenu" onclick="closeMenu()">Zamknij</button>
+          <h1>Menu</h1>
+     </div>
+</body>
+<script src="Sources/engine.js"></script>
+<script src="Sources/pe.js"></script>
+</html>

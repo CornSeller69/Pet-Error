@@ -1,0 +1,134 @@
+body {
+     background-image: url('../Materials/Themes/vsc-dark.png');
+     background-repeat: repeat-y;
+     background-size: cover;
+     overflow: hidden;
+}
+
+#error {
+     position: absolute;
+     left: 0;
+     right: 0;
+     height: 200px;
+     width: 500px;
+     margin-inline: auto;
+     bottom: 40%;
+     background-color: rgb(75, 47, 54);
+     color: rgb(255, 179, 210);
+     font-family: monospace;
+     border-top: 1px solid rgb(116, 62, 76);
+     border-bottom: 1px solid rgb(116, 62, 76);
+     visibility: hidden;
+}
+
+#excl {
+     position: absolute;
+     top: 6px;
+     left: 7px;
+}
+
+#fakelink {
+     text-decoration: underline;
+     color: #3399FF;
+     cursor: pointer;
+     user-select: none;
+     position: absolute;
+     right: 5px;
+     bottom: -9px;
+}
+
+#xarrow {
+     position: absolute;
+     top: -10px;
+     left: 23px;
+}
+
+#errortext {
+     position: absolute;
+     top: -8px;
+     left: 39px;
+}
+
+#authormark {
+     visibility: visible;
+     position: absolute;
+     bottom: -5px;
+     left: 3px;
+     color: white;
+}
+
+#enginemark {
+     visibility: visible;
+     width: 150px;
+     position: absolute;
+     bottom: 3px;
+     right: 3px;
+}
+
+#textb4 {
+     visibility: visible;
+     text-align: center;
+     margin-top: 22%;
+     color: white;
+     text-decoration: underline dashed;
+}
+
+#foodcounter,#funcounter {
+     width: 350px;
+     height: 70px;
+     background-color: rgb(163, 163, 163);
+     position: absolute;
+     bottom: 5px;
+     visibility: hidden;
+     opacity: 0;
+     transition: opacity 0.3s ease-out;
+     border: 3px outset rgb(163, 163, 163);
+     font-family: monospace;
+}
+
+#funcounter {
+     left: 365px;
+}
+
+#foodbar {
+     background-color: hsl(29, 100%, 58%);
+}
+
+#foodbar,#funbar {
+     height: 35px;
+     width: 100%; /* to można zmieniać do testów <3 */
+}
+
+#funbar {
+     background-color: rgb(65, 65, 255);
+}
+
+#menu {
+     background-color: rgb(163, 163, 163);
+     width: 300px;
+     height: 60px;
+     font-size: 45px;
+     visibility: hidden;
+     position: absolute;
+     top: 5px;
+     left: 5px;
+     cursor: pointer;
+     opacity: 0;
+     transition: opacity 0.3s ease-out;
+}
+
+#menu:hover {background-color: gray;}
+
+#menucard {
+     visibility: hidden;
+     position: absolute;
+     top: -100%;
+     width: 80%;
+     margin-inline: auto;
+     left: 0;
+     right: 0;
+     background-color: rgb(163, 163, 163);
+     height: 90%;
+     transition: top 0.4s ease-out;
+     border: 3px outset rgb(163, 163, 163);
+}
